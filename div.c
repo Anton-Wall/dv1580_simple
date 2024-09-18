@@ -2,10 +2,13 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]){
-    if (argv[2] == 0){
+    int num1 = atoi(argv[1]);
+    int num2 = atoi(argv[2]);
+    if (num2 == 0){
       printf("DIV ZERO NOT ALLOWED!\n")
     } else {
-      printf("%i", argv[1]/argv[2])
+        res = num1 / num2;
+        return res
     };
   return 0;
 };
