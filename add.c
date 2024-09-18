@@ -8,4 +8,4 @@ int main(int argc, char *argv[]){
     scanf("%d", &argv2);
     printf("\n%i", argv1 + argv2);
   return 0;
-}
+};
